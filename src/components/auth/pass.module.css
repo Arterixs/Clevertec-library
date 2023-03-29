@@ -1,0 +1,56 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 0 56px 48px 56px;
+}
+
+.wrapper-pad {
+  padding: 48px 56px;
+}
+
+.wrapper-input {
+  position: relative;
+  font-family: 'Montserrat-reg';
+  font-weight: 400;
+  min-height: 74px;
+}
+
+.helps {
+  font-size: 12px;
+  line-height: 16px;
+  color: #a7a7a7;
+  margin-left: 12px;
+}
+
+.helps-error {
+  color: #f42c4f;
+}
+
+.title {
+  font-family: 'Montserrat-bold';
+  font-size: 24px;
+  line-height: 30px;
+  color: #363636;
+}
+
+@media (max-width: 450px) {
+  .wrapper {
+    padding: 0 16px 48px 16px;
+    gap: 20px;
+  }
+
+  .wrapper-pad {
+    padding: 24px 16px;
+  }
+}

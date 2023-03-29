@@ -1,0 +1,103 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 48px 56px;
+}
+
+.wrapper-title {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #363636;
+}
+
+.title {
+  font-family: 'Montserrat-bold';
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700px;
+  color: #363636;
+}
+
+.subtitle {
+  font-family: 'Montserrat-semi';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.wrapper-input {
+  position: relative;
+  font-family: 'Montserrat-reg';
+  font-weight: 400;
+  height: 76px;
+}
+
+.helps {
+  font-size: 12px;
+  line-height: 16px;
+  color: rgb(167, 167, 167);
+  margin-left: 12px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  font-family: 'Montserrat-reg';
+}
+
+.input-group-reg {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.input-group-auth {
+  display: flex;
+  flex-direction: column;
+}
+
+.link-recover {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  margin-left: 12px;
+  color: #a7a7a7;
+}
+
+.color {
+  color: #363636;
+}
+
+.helps-error {
+  color: rgb(244, 44, 79);
+}
+
+.margin {
+  margin-bottom: 16px;
+}
+
+@media (max-width: 500px) {
+  .form {
+    padding: 24px 16px;
+  }
+
+  .wrapper-input {
+    max-width: 416px;
+    height: 90px;
+  }
+
+  .wrapper-input-auth {
+    height: 76px;
+  }
+
+  .input-group-reg {
+    gap: 10px;
+  }
+
+  .link-recover {
+    margin-left: 0;
+  }
+}

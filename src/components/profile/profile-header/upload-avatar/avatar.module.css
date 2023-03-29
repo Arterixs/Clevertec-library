@@ -1,0 +1,28 @@
+.container-avatar {
+  position: relative;
+  cursor: pointer;
+}
+
+.avatar {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.svg {
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+  width: 160px;
+  height: 42px;
+}
+
+.camera {
+  width: 32px;
+  height: 32px;
+  fill: none;
+  position: absolute;
+  bottom: 5%;
+  right: 41%;
+}

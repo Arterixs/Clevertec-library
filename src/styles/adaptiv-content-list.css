@@ -1,0 +1,77 @@
+@media (max-width: 768px) {
+  .book__list {
+    height: 240px;
+    padding: 16px 24px 16px 16px;
+  }
+
+  .book__content-wrapper {
+    padding-bottom: 0;
+  }
+
+  .book__list .book__image {
+    height: 172px;
+    width: 124px;
+    min-width: 124px;
+  }
+}
+
+@media (max-width: 520px) {
+  .book__list {
+    height: 182px;
+    gap: 8px;
+    padding: 16px 16px 16px 8px;
+  }
+
+  .wrapper-author_list {
+    margin-bottom: 3px;
+  }
+
+  .book__list_title {
+    font-family: 'Montserrat-semi';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .book__list_grade {
+    flex-direction: column;
+    align-items: start;
+    height: 100%;
+  }
+
+  .book__list_author {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .book__list_name {
+    margin-bottom: 3px;
+  }
+
+  .book__list .book__image {
+    align-self: flex-start;
+    height: 100px;
+    width: 72px;
+    min-width: 72px;
+  }
+
+  .book__list_grade .book__submit {
+    align-self: self-start;
+    margin-top: auto;
+    width: 100%;
+  }
+
+  .book__list_grade .wrapper-stars .star {
+    height: 12.67px;
+    width: 13.33px;
+  }
+
+  .book__list_grade .wrapper-stars .grades-none {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

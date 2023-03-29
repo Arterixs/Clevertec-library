@@ -1,0 +1,35 @@
+.wrapper-error-content {
+  width: 100%;
+  padding-top: 168px;
+  display: flex;
+  justify-content: center;
+}
+
+.no-content {
+  font-family: 'Montserrat-bold';
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  color: #a7a7a7;
+}
+
+.no-content_hidden {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .wrapper-error-content {
+    padding-top: 202px;
+  }
+}
+
+@media (max-width: 468px) {
+  .wrapper-error-content {
+    padding-top: 118px;
+  }
+  .no-content {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}

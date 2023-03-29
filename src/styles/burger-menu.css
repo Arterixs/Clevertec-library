@@ -1,0 +1,129 @@
+.burger-menu {
+  width: 20px;
+  height: 14.67px;
+  z-index: 3;
+  position: relative;
+  transition: all 0.3s linear 0s;
+  border: none;
+  background: transparent;
+}
+
+.burger-menu:hover {
+  cursor: pointer;
+  transition: all 0.3s linear 0s;
+}
+
+.burger-menu__middle,
+.burger-menu::before,
+.burger-menu::after {
+  content: '';
+  left: 0;
+  position: absolute;
+  height: 2px;
+  width: 20.67px;
+  transition: all 0.3s ease 0s;
+  background-color: #363636;
+  border-radius: 5px;
+}
+
+.burger-menu::before {
+  transition: all 0.3s ease;
+  top: 0;
+}
+
+.burger-menu::after {
+  bottom: 0;
+  transition: all 0.3s ease;
+}
+
+.burger-menu__middle {
+  top: 50%;
+  transform: scale(1) translate(0px, -50%);
+  transition: all 0.3s ease;
+}
+
+.burger-menu_active:after,
+.burger-menu_active::before {
+  background-color: #f86c0c;
+}
+
+.burger-menu__middle_active {
+  display: none;
+  transition: all 0.3s ease;
+}
+
+.burger-menu_active:after {
+  bottom: 50%;
+  transition: all 0.3s ease;
+  transform: rotate(45deg) translate(0.5px, 50%);
+}
+
+.burger-menu_active::before {
+  top: 50%;
+  transition: all 0.3s ease;
+  transform: rotate(-45deg) translate(0.5px, -50%);
+}
+
+.burger-menu-wrapper {
+  position: absolute;
+  top: 58px;
+  left: -600px;
+  z-index: 2;
+  background: #f9f9fa;
+  box-shadow: 0px 2px 4px rgba(191, 196, 201, 0.2), 0px 3px 4px rgba(191, 196, 201, 0.18),
+    0px 1px 5px rgba(191, 196, 201, 0.24);
+  border-radius: 10px;
+  max-width: 502px;
+  width: 100%;
+  padding: 32px 0px 52px 0px;
+  font-family: 'Montserrat-bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  transition: all 0.3s ease;
+}
+
+.burger-menu-wrapper_active {
+  left: -6px;
+  transition: all 0.3s ease;
+}
+
+.burger-menu__navigation {
+  padding: 0 32px;
+}
+
+.burger-menu-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+
+.burger-menu-content {
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+}
+
+.burger-menu__control {
+  padding: 32px 32px 0 32px;
+  border-top: 1px solid #bfc4c9;
+}
+
+.menu-burger__wrap-title {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.active-link__aside {
+  width: 255px;
+}
+
+.burger-menu-wrapper_active::before {
+  content: '';
+}
+
+.burger-menu-wrapper_active::after {
+  content: '';
+}

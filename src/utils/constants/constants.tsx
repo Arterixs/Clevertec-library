@@ -1,0 +1,11 @@
+export const UPGRADE_SEARCH_RESIZE = 680;
+export const CLASSNAME_BUTTON_BOOKED = 'book__submit book__submit_closed';
+export const CLASSNAME_BUTTON_BOOK = 'book__submit';
+export const CLASSNAME_META_BUTTON_BOOKED = 'meta-info__button meta-info__button_closed';
+export const CLASSNAME_META_BUTTON_BOOK = 'meta-info__button';
+export const CLASSNAME_STAR_LIST = 'star-profile__delivery';
+export const CLASSNAME_STAR_WINDOW = 'star-profile__window';
+export const CLASSNAME_BUTTON_RECALL_BOOKING = 'btn_recall_booking';
+export const CLASSNAME_BUTTON_RECALL_HISTORY = 'btn-recall__history';
+export const CLASSNAME_BUTTON_CHANGE_COMMENT_HISTORY = 'btn-recall__comment';
+export const DEFAULT_PASSWORD = '12345678910'

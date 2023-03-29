@@ -1,0 +1,43 @@
+@import './nav-books.css';
+@import './head-view-book-page.css';
+@import '../swiper/swiper.css';
+@import './ratio.css';
+@import './information.css';
+@import './recall.css';
+@import './coment.css';
+@import './button-recall.css';
+
+.main-book-page {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  width: 100%;
+  margin-bottom: 62px;
+  margin-top: 27px;
+  gap: 42px;
+}
+
+.main-wrap-book-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.main-wrap-book-page_hidden {
+  display: none;
+}
+
+.wrapper-book-page {
+  max-width: 1100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+
+.body-books-page {
+  display: flex;
+  flex-direction: column;
+  gap: 62px;
+}

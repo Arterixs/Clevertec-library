@@ -1,0 +1,40 @@
+.button {
+  width: 255px;
+  height: 52px;
+  border: 1px solid #bfc4c9;
+  border-radius: 30px;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: #363636;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:disabled {
+  background: #ebebeb;
+  cursor: default;
+  color: #ffffff;
+}
+
+.active {
+  background: linear-gradient(231.58deg, #f83600 -53.35%, #f9d423 297.76%);
+  color: #ffffff;
+}
+
+.span {
+  font-family: 'Montserrat-semi';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 650px) {
+  .button {
+    width: 100%;
+  }
+}

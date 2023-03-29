@@ -1,0 +1,140 @@
+.window {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 22px;
+  left: 0;
+  max-width: 1110px;
+  min-height: 80px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 24px 32px;
+  z-index: 10;
+}
+
+.window-error {
+  background-color: #feebea;
+  border: 1.5px solid #f42c4f;
+}
+
+.window-succes {
+  background-color: #ebf9f1;
+  border: 1.5px solid #00ca71;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.svg {
+  width: 32px;
+  height: 32px;
+  fill: none;
+}
+
+.text {
+  font-family: 'Montserrat-semi';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #363636;
+}
+
+.button {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.span-left {
+  position: absolute;
+  height: 2px;
+  width: 17.67px;
+  left: 10%;
+  top: 50%;
+  transform: rotate(-45deg) translate(0.5px, -50%);
+  background-color: #363636;
+}
+
+.span-right {
+  position: absolute;
+  height: 2px;
+  width: 17.67px;
+  left: 10%;
+  bottom: 50%;
+  transform: rotate(45deg) translate(0.5px, 50%);
+  background-color: #363636;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 780px) {
+  .window {
+    top: 30px;
+    padding: 16px 24px;
+    min-height: 72px;
+  }
+
+  .content {
+    gap: 12px;
+  }
+
+  .text {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .button {
+    align-self: auto;
+    min-width: 16px;
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .window {
+    top: 33px;
+    padding: 16px 12px;
+    min-height: 78px;
+  }
+
+  .span-left,
+  .span-right {
+    height: 1px;
+    width: 13px;
+  }
+
+  .button {
+    align-self: baseline;
+  }
+
+  .svg {
+    align-self: flex-start;
+    max-width: 25px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 340px) {
+  .text {
+    width: 186px;
+  }
+}

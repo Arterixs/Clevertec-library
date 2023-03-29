@@ -1,0 +1,41 @@
+.main {
+  display: flex;
+  justify-content: center;
+  flex: 1 1 auto;
+  margin: 62px 0px;
+  padding: 0 16px;
+  max-width: 1440px;
+  width: 100%;
+}
+
+.main-wrap {
+  max-width: 1110px;
+  width: 100%;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 92px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .main {
+    margin-top: 32px;
+    padding: 0 64px;
+  }
+
+  .profile {
+    gap: 64px;
+  }
+}
+
+@media (max-width: 450px) {
+  .main {
+    padding: 0 16.5px;
+  }
+  .profile {
+    gap: 42px;
+  }
+}

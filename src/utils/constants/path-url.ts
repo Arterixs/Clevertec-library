@@ -1,0 +1,17 @@
+export const PATH_AUTHORIZATION = '/auth';
+export const PATH_AUTH_PAGE = '/local';
+export const PATH_REGISTRATION = '/register';
+export const PATH_PROFILE = '/profile';
+export const PATH_NEW_AVATAR = '/upload';
+export const PATH_UPDATE_AVATAR = '/users';
+export const PATH_FORGOT_PASSWORD = '/forgot-password';
+export const PATH_RESET_PASSWORD = '/reset-password';
+export const PATH_BOOKING = '/bookings';
+export const PATH_BOOK_PAGE = '/books';
+export const PATH_CATEGORIES = '/categories';
+export const PATH_COMMENTS = '/comments';
+export const PATH_USER = '/users/me';
+export const URL_IMAGE = 'https://strapi.cleverland.by';
+export const BASE_URL = 'https://strapi.cleverland.by/api';
+export const PATH_REG = '/registration';
+export const PATH_FORGOT_PASS = '/forgot-pass'

@@ -1,0 +1,50 @@
+.input {
+  max-width: 416px;
+  width: 100%;
+  height: 56px;
+  border-radius: 4px 4px 0px 0px;
+  border: none;
+  border-bottom: 1px solid #bfc4c9;
+  background-color: #f9f9fa;
+  padding: 12px 70px 0px 12px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #363636;
+  margin-bottom: 2px;
+  outline: none;
+}
+
+.error {
+  border-bottom: 1px solid #f42c4f;
+}
+
+.input[type='password'] {
+  font: small-caption;
+  font-size: 16px;
+}
+
+.placeholder {
+  position: absolute;
+  font-family: 'Montserrat-reg';
+  font-size: 14px;
+  line-height: 18px;
+  color: #a7a7a7;
+  left: 12px;
+  top: 19px;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.input:focus + .placeholder,
+.input:not(:placeholder-shown) + .placeholder {
+  transition: all 0.3s ease;
+  font-size: 12px;
+  line-height: 16px;
+  top: 6px;
+}
+
+@media (max-width: 768px) {
+  .auth-container {
+    gap: 113px;
+  }
+}

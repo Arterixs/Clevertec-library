@@ -1,0 +1,44 @@
+.title-page {
+  font-family: 'Montserrat-bold';
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #363636;
+}
+
+.main-list__item-contracts {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  font-family: 'Montserrat-semi';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #363636;
+}
+
+.two-list__item-contracts {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat-reg';
+  font-weight: 400;
+  gap: 16px;
+  padding-left: 30px;
+  padding-top: 16px;
+}
+
+.three-list__item-contracts {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-left: 30px;
+  padding-top: 16px;
+}
+
+.four-list__item-contracts {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-left: 30px;
+  padding-top: 16px;
+}

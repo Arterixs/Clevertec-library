@@ -1,0 +1,12 @@
+.check {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  fill: none;
+  top: 18px;
+  right: 40px;
+}
+
+.hidden {
+  display: none;
+}

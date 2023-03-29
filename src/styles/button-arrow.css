@@ -1,0 +1,22 @@
+.button-arrow {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: orange;
+}
+
+.button-arrow_active {
+  transform: rotate(180deg);
+}
+
+.button-arrow_color {
+  color: #363636;
+}
+
+.svg-arrow {
+  width: 24px;
+  height: 24px;
+}

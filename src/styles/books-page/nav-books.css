@@ -1,0 +1,38 @@
+.main-navigation-books-page {
+  display: flex;
+  justify-content: center;
+  background-color: #f9f9fa;
+  padding: 0 20px;
+}
+
+.navigation-page {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  max-width: 1100px;
+  width: 100%;
+}
+
+.nav-list {
+  display: flex;
+  gap: 4px;
+  font-family: 'Montserrat-reg';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #a7a7a7;
+}
+
+.nav-list__item {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.link__content_slash {
+  text-align: center;
+  font-weight: 600;
+  width: 24px;
+  display: inline-block;
+}

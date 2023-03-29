@@ -1,0 +1,164 @@
+.card {
+  display: flex;
+  gap: 16px;
+  padding: 24px 24px 24px 16px;
+  box-shadow: 0px 2px 4px rgba(191, 196, 201, 0.2), 0px 3px 4px rgba(191, 196, 201, 0.18),
+    0px 1px 5px rgba(191, 196, 201, 0.24);
+  border-radius: 12px;
+  cursor: pointer;
+  color: rgb(255,82,83);
+}
+
+.image {
+  min-width: 120px;
+  width: 120px;
+  height: 170px;
+  margin-bottom: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 14px;
+}
+
+.block-name {
+  margin-bottom: 8px;
+}
+
+.title {
+  font-family: 'Montserrat-bold';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #363636;
+}
+
+.block-authors {
+  margin-bottom: auto;
+}
+
+.authors {
+  color: #727272;
+  font-family: 'Montserrat-reg';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.block-grades {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.star-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 152px;
+  height: 24px;
+}
+
+.empty {
+  min-width: 120px;
+  height: 170px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cat {
+  width: 48px;
+  height: 48px;
+}
+
+@media (max-width: 1000px) {
+  .cat {
+    top: 42%;
+    left: 44%;
+  }
+}
+
+@media (max-width: 870px) {
+  .cat {
+    top: 34%;
+    left: 30%;
+    transform: scale(0.6);
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 16px 24px 16px 16px;
+  }
+
+  .cat {
+    top: 34%;
+    left: 30%;
+    transform: scale(0.6);
+  }
+
+  .content {
+    padding-bottom: 0;
+  }
+
+  .empty,
+  .image {
+    height: 172px;
+    width: 124px;
+    min-width: 124px;
+  }
+}
+
+@media (max-width: 680px) {
+  .empty,
+  .image {
+    height: 100px;
+    width: 70px;
+    min-width: 70px;
+  }
+
+  .title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .block-grades {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+}
+
+@media (max-width: 530px) {
+  .block-authors {
+    margin-bottom: 8px;
+  }
+
+  .card {
+    gap: 8px;
+    padding: 16px 16px 16px 8px;
+  }
+
+  .title {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .authors {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .block-grades {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+}

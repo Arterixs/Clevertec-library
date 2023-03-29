@@ -1,0 +1,16 @@
+.button {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.eye {
+  width: 24px;
+  height: 24px;
+  fill: none;
+}

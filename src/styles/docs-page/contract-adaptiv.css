@@ -1,0 +1,45 @@
+@media (max-width: 960px) {
+  .main-content-contracts {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-wrap-docs {
+    margin-top: 32px;
+    padding: 0 20px;
+  }
+
+  .main-content-contracts {
+    max-width: 640px;
+    padding: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-wrap-docs {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding: 0 16px;
+  }
+
+  .title-page {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .main-content-contracts {
+    gap: 24px;
+  }
+
+  .main-list__item-contracts {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .two-list__item-contracts {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}

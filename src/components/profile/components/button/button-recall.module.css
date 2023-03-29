@@ -1,0 +1,26 @@
+.button {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 190px;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  background: linear-gradient(231.58deg, #f83600 -53.35%, #f9d423 297.76%);
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.span {
+  font-family: 'Montserrat-semi';
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  text-transform: uppercase;
+}

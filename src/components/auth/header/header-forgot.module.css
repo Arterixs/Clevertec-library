@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  background-color: #f9f9fa;
+  height: 64px;
+  padding: 20px 0px 20px 16px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: 'Montserrat-semi';
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #727272;
+}
+
+.arrow {
+  width: 20px;
+  height: 14px;
+  transform: rotate(180deg);
+  color: #bfc4c9;
+}

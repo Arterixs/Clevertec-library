@@ -1,0 +1,16 @@
+.star-profile__delivery {
+  width: 24px;
+  height: 24px;
+}
+
+.star-profile__window {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 680px) {
+  .star-profile__delivery {
+    width: 12px;
+    height: 12px;
+  }
+}

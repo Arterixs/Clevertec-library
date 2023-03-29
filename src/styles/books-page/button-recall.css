@@ -1,0 +1,12 @@
+.button-recall {
+  width: 24px;
+  height: 24px;
+  margin-left: 18px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.button-recall_closed {
+  transform: rotate(180deg);
+}

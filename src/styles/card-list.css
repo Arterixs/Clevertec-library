@@ -1,0 +1,66 @@
+.wrapper-content-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.book__list {
+  display: flex;
+  gap: 16px;
+  padding: 24px 24px 24px 16px;
+  box-shadow: 0px 2px 4px rgba(191, 196, 201, 0.2), 0px 3px 4px rgba(191, 196, 201, 0.18),
+    0px 1px 5px rgba(191, 196, 201, 0.24);
+  border-radius: 12px;
+  height: 218px;
+  max-width: 825px;
+  cursor: pointer;
+}
+
+.book__list .book__image {
+  min-width: 123px;
+  width: 123px;
+  height: 170px;
+  margin-bottom: 0;
+}
+
+.book__content-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.book__list_grade {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book__list_name {
+  margin-bottom: 8px;
+}
+
+.wrapper-author_list {
+  margin-bottom: auto;
+}
+
+.book__list_title {
+  font-family: 'Montserrat-bold';
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #363636;
+}
+
+.book__grade-container {
+  display: flex;
+  gap: 10px;
+}
+
+.book__list_author {
+  color: #727272;
+  font-family: 'Montserrat-reg';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
