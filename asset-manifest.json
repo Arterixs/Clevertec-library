@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.cfcb449a.css",
-    "main.js": "/static/js/main.4b886fda.js",
-    "static/media/Montserrat-SemiBold.ttf": "/static/media/Montserrat-SemiBold.d5e0cc788cba9ced1fb9.ttf",
-    "static/media/Montserrat-Bold.ttf": "/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf",
-    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
-    "static/media/Montserrat-Bold.woff": "/static/media/Montserrat-Bold.e7d34e28d091869b8442.woff",
-    "static/media/Montserrat-SemiBold.woff": "/static/media/Montserrat-SemiBold.f74ba4e9f167ce41bf33.woff",
-    "static/media/Montserrat-Regular.woff": "/static/media/Montserrat-Regular.49549d7ac87475df22a9.woff",
-    "static/media/avatar.svg": "/static/media/avatar.c2830e9029cc44d30fbbfe5a49db311e.svg",
-    "static/media/def-avatar.svg": "/static/media/def-avatar.c4eac6d9bb0827f25d4378932f1e8036.svg",
-    "static/media/Montserrat-Bold.woff2": "/static/media/Montserrat-Bold.2695cf49ae7429c18e10.woff2",
-    "static/media/Montserrat-SemiBold.woff2": "/static/media/Montserrat-SemiBold.b5837b161389882292f7.woff2",
-    "static/media/Montserrat-Regular.woff2": "/static/media/Montserrat-Regular.fc432875c59da8482816.woff2",
-    "static/media/ava-rev.webp": "/static/media/ava-rev.5812877c562708d9beb5.webp",
-    "index.html": "/index.html",
-    "static/media/fon-empty.webp": "/static/media/fon-empty.fdb3a2ba025416ffb424.webp",
-    "main.cfcb449a.css.map": "/static/css/main.cfcb449a.css.map",
-    "main.4b886fda.js.map": "/static/js/main.4b886fda.js.map"
+    "main.css": "/Clevertec-library/static/css/main.d4457d4b.css",
+    "main.js": "/Clevertec-library/static/js/main.94de4db3.js",
+    "static/media/Montserrat-SemiBold.ttf": "/Clevertec-library/static/media/Montserrat-SemiBold.d5e0cc788cba9ced1fb9.ttf",
+    "static/media/Montserrat-Bold.ttf": "/Clevertec-library/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf",
+    "static/media/Montserrat-Regular.ttf": "/Clevertec-library/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
+    "static/media/Montserrat-Bold.woff": "/Clevertec-library/static/media/Montserrat-Bold.e7d34e28d091869b8442.woff",
+    "static/media/Montserrat-SemiBold.woff": "/Clevertec-library/static/media/Montserrat-SemiBold.f74ba4e9f167ce41bf33.woff",
+    "static/media/Montserrat-Regular.woff": "/Clevertec-library/static/media/Montserrat-Regular.49549d7ac87475df22a9.woff",
+    "static/media/avatar.svg": "/Clevertec-library/static/media/avatar.c2830e9029cc44d30fbbfe5a49db311e.svg",
+    "static/media/def-avatar.svg": "/Clevertec-library/static/media/def-avatar.c4eac6d9bb0827f25d4378932f1e8036.svg",
+    "static/media/Montserrat-Bold.woff2": "/Clevertec-library/static/media/Montserrat-Bold.2695cf49ae7429c18e10.woff2",
+    "static/media/Montserrat-SemiBold.woff2": "/Clevertec-library/static/media/Montserrat-SemiBold.b5837b161389882292f7.woff2",
+    "static/media/Montserrat-Regular.woff2": "/Clevertec-library/static/media/Montserrat-Regular.fc432875c59da8482816.woff2",
+    "static/media/ava-rev.webp": "/Clevertec-library/static/media/ava-rev.5812877c562708d9beb5.webp",
+    "index.html": "/Clevertec-library/index.html",
+    "static/media/fon-empty.webp": "/Clevertec-library/static/media/fon-empty.fdb3a2ba025416ffb424.webp",
+    "main.d4457d4b.css.map": "/Clevertec-library/static/css/main.d4457d4b.css.map",
+    "main.94de4db3.js.map": "/Clevertec-library/static/js/main.94de4db3.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfcb449a.css",
-    "static/js/main.4b886fda.js"
+    "static/css/main.d4457d4b.css",
+    "static/js/main.94de4db3.js"
   ]
 }
