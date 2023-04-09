@@ -1,4 +1,4 @@
-<h1 align="center">Cleverland</h1>
+<h1 align="center">CLEVERLAND</h1>
 
 <details open="open">
   <summary>Table of Contents</summary>
@@ -16,6 +16,9 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
+    <li>
+      <a href="#view-project">View Project</a>
+    </li>
   </ol>
 </details>
 
@@ -26,6 +29,8 @@
 Cleverland is a library website that provides the user with access to a list of books, has the ability to book books, tracks their return and etc.
 
 A small registration is required to enter the application or you can use the test login _Gost123_ and the password _Qwerty25_ (please do not edit the login and password).
+
+[View Demo](https://sho.rt/l1n-k)
 
 ### Built With
 
@@ -71,3 +76,9 @@ This is an example of how you may give instructions on setting up your project l
    npm install
    ```
 3. Enjoy coding!
+
+## View Project
+
+This section contains a link to the application deployment.
+
+[View Project](arterixs.github.io/Clevertec-library/)
