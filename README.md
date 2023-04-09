@@ -81,4 +81,4 @@ This is an example of how you may give instructions on setting up your project l
 
 This section contains a link to the application deployment.
 
-[View Project](arterixs.github.io/Clevertec-library/)
+[CLEVERLAND](https://arterixs.github.io/Clevertec-library/)
