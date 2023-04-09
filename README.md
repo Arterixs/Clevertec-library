@@ -1,5 +1,68 @@
-# Краткое описание спринта
-В данном спринте вам необходимо реализовать личный кабинет пользователя с возможностями взаимодействия через него с забронированной книгой, книгой, которая находится на руках, просмотр истории книг, которые уже прочтены. Весь функционал должен соответсвовать флоу [макета](https://www.figma.com/file/d8LhhLjMkaTfPvAcYQULNv/Library---students-file?node-id=3604-32183).
+<h1 style="text-align: center";>Cleverland</h1>
 
-### Ссылка на инструкцию
-В данной [инструкции](https://docs.google.com/document/d/1AVx3szLkygyVuTbUL1G8c3c9vKuBvCdyI_RqKfq-GfU/edit) подробное описание задания на седьмой спринт.
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#features">Features</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+  </ol>
+</details>
+
+## About the project
+
+Cleverland is a library website that provides the user with access to a list of books, has the ability to book books, tracks their return and etc.
+
+### Built With
+
+This section lists all the main tools with which this project was built.
+
+- HTML5 / CSS3
+- Typesctipt
+- Axios
+- React / CRA
+- Redux / Redux-thunk
+- React-Hook-Form
+- React-router-dom
+- React-text-mask
+- Swiper
+
+### Features
+
+This section describes the functionality of the application.
+
+- [x] Authorization / registration / user password recovery
+- [x] Step-by-step real-time form validation
+- [x] Search / filter / sort books
+- [x] Selecting the date of booking or rebooking the book
+- [x] Book cancellation
+- [x] Adding/editing a book review
+- [x] Editing user data on the profile page
+- [x] History of user activity in the library
+- [x] Book return reminder
+
+## Getting Started
+
+This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/your_username_/Project-Name.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Enjoy coding!
