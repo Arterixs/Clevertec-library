@@ -52,6 +52,7 @@ This section describes the functionality of the application.
 - [x] Book cancellation
 - [x] Adding/editing a book review
 - [x] Editing user data on the profile page
+- [x] User avatar change
 - [x] History of user activity in the library
 - [x] Book return reminder
 
