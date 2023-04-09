@@ -30,8 +30,6 @@ Cleverland is a library website that provides the user with access to a list of 
 
 A small registration is required to enter the application or you can use the test login _Gost123_ and the password _Qwerty25_ (please do not edit the login and password).
 
-[View Demo](https://sho.rt/l1n-k)
-
 ### Built With
 
 This section lists all the main tools with which this project was built.
