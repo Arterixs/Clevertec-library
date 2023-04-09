@@ -21,6 +21,8 @@
 
 ## About the project
 
+![product-screenshot](https://user-images.githubusercontent.com/95077794/230783885-cf27f2e0-f10d-4dac-bab4-bc753fd0c779.png)
+
 Cleverland is a library website that provides the user with access to a list of books, has the ability to book books, tracks their return and etc.
 
 ### Built With
