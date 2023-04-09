@@ -1,4 +1,4 @@
-<h1 style="align: center">Cleverland</h1>
+<h1 align="center">Cleverland</h1>
 
 <details open="open">
   <summary>Table of Contents</summary>
